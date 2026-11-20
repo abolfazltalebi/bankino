@@ -7,15 +7,26 @@
 .text-custom {
     font-size: 3rem;
 }
-
+.text-orange{
+    color: #ff8c22;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.captiontext{
+    text-align: justify;
+    font-size: 14px;
+}
 /* Mobile Responsive */
 @media (max-width: 576px) {
-  .text-custom {
-    font-size: 1rem;
-}
-.position-custom-title {
-    position: absolute;
-    top: 25%;
-    right: 50px;
-}
+    .text-custom {
+        font-size: 1rem;
+    }
+
+    .position-custom-title {
+        position: absolute;
+        top: 25%;
+        right: 50px;
+    }
 }
