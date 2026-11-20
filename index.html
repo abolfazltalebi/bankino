@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.rtl.css" />
+    <link rel="stylesheet" href="./assets/font/font.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-header position-custom">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand m-0 fw-bold" href="#">
+          <img src="./assets/images/bankino-middleeastbank.svg" alt="" />
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#mobileNavbar"
+          aria-controls="mobileNavbar"
+          aria-label="باز کردن منو"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Desktop Navigation -->
+        <div class="collapse navbar-collapse" id="desktopNavbar">
+          <ul class="navbar-nav mx-auto mb-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">چرا بانکینو</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">خدمات بانکینو</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">راهنما</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">پشتیبانی</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">درباره ما</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">بلاگ</a></li>
+          </ul>
+
+          <!-- Login Button -->
+          <div class="d-flex">
+            <button class="btn bg-black text-white px-5 py-2 rounded-pill">
+              ورود
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="offcanvas offcanvas-end d-md-none"
+        tabindex="-1"
+        id="mobileNavbar"
+        aria-labelledby="mobileNavbarLabel"
+      >
+        <!-- Offcanvas Header -->
+        <div class="offcanvas-header">
+          <a class="navbar-brand m-0 fw-bold" href="#" id="mobileNavbarLabel">
+            <img src="./assets/images/bankino-middleeastbank.svg" alt=""
+          /></a>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="بستن"
+          ></button>
+        </div>
+
+        <!-- Offcanvas Body -->
+        <div class="offcanvas-body">
+          <ul class="navbar-nav mb-4">
+            <li class="nav-item">
+              <a class="nav-link" href="#">چرا بانکینو</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">خدمات بانکینو</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">راهنما</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">پشتیبانی</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">درباره ما</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">بلاگ</a></li>
+          </ul>
+
+          <button class="btn bg-black text-white px-5 py-2 rounded-pill w-100">
+            ورود
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <script src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
