@@ -1,3 +1,6 @@
+html,body{
+    background: #F8F9F9;
+}
 .position-custom-title {
     position: absolute;
     top: 40%;
@@ -14,9 +17,23 @@ a{
     text-decoration: none;
     color: black;
 }
+ul,li{
+    margin: 0;padding: 0;
+}
+.size-6{
+    width: 20px;
+    height: 20px;
+     color: #ff8c22;
+}
 .captiontext{
     text-align: justify;
     font-size: 14px;
+}
+
+.line-custom{
+    width: 10px;
+    height: 2px;
+    background-color: gray;
 }
 /* Mobile Responsive */
 @media (max-width: 576px) {
